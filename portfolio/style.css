@@ -1,33 +1,114 @@
 body {
 	background-color: #303030;
 	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
 }
 
 #container {
 	width: 1000px;
-	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .rectangle {
-	width: 1000px;
-	background-color: green;
-	clear: both;
+	width: 960px;
+	margin: 20px;
+	text-align: center;
 }
 
 #logo {
-	width: 300px;
-	background-color: yellow;
+	width: 500px;
+	font-family: 'Montserrat', sans-serif;
 	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 50px;
 }
 
 #clock {
-	width: 300px;
-	background-color: darkblue;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
 	float: left;
+	text-align: left;
 }
 
 .square {
-	background-color: red;
+	width: 50%;
 	float: left;
 }
 
+.tile1 {
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.tile2 {
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	float: left;
+	text-align: center;
+}
+
+.tile3 {
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	float: left;
+	text-align: center;
+}
+
+.tile4 {
+	margin: 10px;
+	width: 480;
+	height: 142px;
+	background-color: #ee5a32;
+	text-align: center;
+
+}
+
+.tile5 {
+	margin: 10px;
+	width: 480;
+	height: 304px;
+	background-color: #666666;
+	text-align: center;
+
+}
+
+.yt {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+.fb {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
+}
+.gplus {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float: left;
+}
+.tw {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
