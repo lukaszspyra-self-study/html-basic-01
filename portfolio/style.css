@@ -12,17 +12,18 @@ body {
 }
 
 .rectangle {
-	width: 960px;
-	margin: 20px;
+	width: 1000px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
 #logo {
-	width: 500px;
+	width: 480px;
 	font-family: 'Montserrat', sans-serif;
 	float: left;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	margin-left: 20px;
 	text-align: left;
 	font-size: 50px;
 }
@@ -30,8 +31,11 @@ body {
 #clock {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
+	margin-bottom: 5px;
 	float: left;
-	text-align: left;
+	text-align: center;
+	width: 490px;
+	margin-left: 10px
 }
 
 .square {
@@ -77,7 +81,7 @@ body {
 
 .tile5 {
 	margin: 10px;
-	width: 480;
+	width: 480px;
 	height: 304px;
 	background-color: #666666;
 	text-align: center;
