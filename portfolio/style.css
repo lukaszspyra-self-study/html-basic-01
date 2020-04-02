@@ -148,3 +148,16 @@ body {
 .tw:hover {
 	background-color: #2084c2;
 }
+
+a.tilelink {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.html5 {
+	color: white;
+	text-decoration: none;
+}
