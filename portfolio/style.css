@@ -52,6 +52,10 @@ body {
 	text-align: center;
 }
 
+.tile1:hover {
+	background-color: #2084c2;
+}
+
 .tile2 {
 	margin: 10px;
 	width: 230px;
@@ -61,13 +65,21 @@ body {
 	text-align: center;
 }
 
+.tile2:hover {
+	background-color: #555555;
+}
+
 .tile3 {
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #666666;
+	background-color: #93c748;
 	float: left;
 	text-align: center;
+}
+
+.tile3:hover {
+	background-color: #82b637;
 }
 
 .tile4 {
@@ -96,6 +108,11 @@ body {
 	background-color: #d94348;
 	float: left;
 }
+
+.yt:hover {
+	background-color: #c83237;
+}
+
 .fb {
 	margin: 10px;
 	width: 105px;
@@ -103,6 +120,11 @@ body {
 	background-color: #4668b3;
 	float: left;
 }
+
+.fb:hover {
+	background-color: #3557a2;
+}
+
 .gplus {
 	margin: 10px;
 	width: 105px;
@@ -110,10 +132,19 @@ body {
 	background-color: #d95333;
 	float: left;
 }
+
+.gplus:hover {
+	background-color: #c84222;
+}
+
 .tw {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
 	background-color: #3095d3;
 	float: left;
+}
+
+.tw:hover {
+	background-color: #2084c2;
 }
