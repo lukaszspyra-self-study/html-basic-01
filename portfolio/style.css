@@ -1,7 +1,7 @@
 body {
 	background-color: #303030;
 	color: #ffffff;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 }
 
@@ -72,10 +72,12 @@ body {
 
 .tile4 {
 	margin: 10px;
-	width: 480;
-	height: 142px;
+	width: 450px;
+	height: 112px;
 	background-color: #ee5a32;
 	text-align: center;
+	line-height: 150%;
+	padding: 15px;
 
 }
 
@@ -85,7 +87,6 @@ body {
 	height: 304px;
 	background-color: #666666;
 	text-align: center;
-
 }
 
 .yt {
