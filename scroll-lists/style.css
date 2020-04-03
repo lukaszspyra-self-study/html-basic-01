@@ -1,0 +1,19 @@
+body {
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/background.png");
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#logo {
+	width: 100%;
+	height: 50px;
+	background-color: #38702d;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 0px 5px 0px;
+	
+}
