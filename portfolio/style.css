@@ -95,10 +95,11 @@ body {
 
 .tile5 {
 	margin: 10px;
-	width: 480px;
-	height: 304px;
+	width: 440px;
+	height: 264px;
 	background-color: #666666;
 	text-align: center;
+	padding: 20px;
 }
 
 .yt {
