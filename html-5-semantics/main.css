@@ -90,3 +90,18 @@ figcaption {
 .author a:hover {
 	opacity: 1;
 }
+
+.entries {
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest {
+	background-color: #191d21;
+
+}
