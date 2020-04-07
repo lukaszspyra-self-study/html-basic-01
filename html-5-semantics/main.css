@@ -74,7 +74,6 @@ h1 {
 
 .author a {
 	opacity: 0.9;
-
 }
 
 figure {
@@ -103,5 +102,37 @@ figcaption {
 
 #newest {
 	background-color: #191d21;
-
 }
+
+.entry {
+	background-color: #222930;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg {
+	display: inline-block;
+	margin-left: 30px;
+	width: 110;
+}
+
+.entryimg img {
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt {
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+
