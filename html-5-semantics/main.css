@@ -140,12 +140,12 @@ h2 {
 	margin-right: auto;
 	width: 950px;
 	text-align: center;
-	padding-bottom: 70px;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .contact p {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .bluebutton {
@@ -162,3 +162,71 @@ h2 {
 	background-color: #196499;
 }
 
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.info {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
