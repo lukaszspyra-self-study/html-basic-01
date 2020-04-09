@@ -66,24 +66,46 @@
 					<fieldset>
 
 						<legend>Car equipment</legend>
-
-						<div><label><input type="checkbox" value="1" name="equipment">Air Condition</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">ESP and ABS systems</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Leather interior</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Drive assist</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">S-Line</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Radiobox with bluetooth</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Matrix Led Lights</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Heating Seats</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Heating Steering wheel</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Camera</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">360 cameras</label></div>
-						<div><label><input type="checkbox" value="1" name="equipment">Lane Assist</label></div>
-
+						<div class="col">
+						<div><label><input type="checkbox" value="1" name="eq[]" disabled checked>Air Condition</label></div>
+						<div><label><input type="checkbox" value="2" name="eq[]" disabled checked>ESP and ABS systems</label></div>
+						<div><label><input type="checkbox" value="3" name="eq[]">Leather interior</label></div>
+						<div><label><input type="checkbox" value="4" name="eq[]">Drive assist</label></div>
+						</div>
+						<div class="col">
+						<div><label><input type="checkbox" value="5" name="eq[]">S-Line</label></div>
+						<div><label><input type="checkbox" value="6" name="eq[]">Radiobox with bluetooth</label></div>
+						<div><label><input type="checkbox" value="7" name="eq[]">Matrix Led Lights</label></div>
+						<div><label><input type="checkbox" value="8" name="eq[]">Heating Seats</label></div>
+						</div>
+						<div class="col">
+						<div><label><input type="checkbox" value="9" name="eq[]">Heating Steering wheel</label></div>
+						<div><label><input type="checkbox" value="10" name="eq[]">Camera</label></div>
+						<div><label><input type="checkbox" value="11" name="eq[]">360 cameras</label></div>
+						<div><label><input type="checkbox" value="12" name="eq[]">Lane Assist</label></div>
+						</div>
 
 					</fieldset>
 
 				</div>
+
+				<div class="row">
+
+					<label for="car perfumes">Car perfumes</label>
+					
+					<div style="margin-top: 10px;">
+					<select id="car perfumes" name="car perfumes[]" multiple size="4">
+
+						<option value="l">Lemon</option>
+						<option value="r" selected>Rose</option>
+						<option value="v">Vanila</option>
+						<option value="c">Chocolate</option>
+
+					</select>
+					</div>
+				</div>
+
+
 
 			</form>		
 			
