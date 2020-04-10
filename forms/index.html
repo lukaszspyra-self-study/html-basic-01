@@ -121,8 +121,8 @@
 
 				<div class="row">
 
-					<label>Email address <input type="email" placeholder="email@domain.com"></label>
-					<label>Phone number <input type="tel"></label>
+					<label>Email address <input type="email" placeholder="email@domain.com" required></label>
+					<label>Phone number <input type="tel" required></label>
 
 				</div>
 
@@ -155,11 +155,19 @@
 				</div>
 
 				<div class="row">
+					<label>Fuel amount </label><meter min="0" max="100" title="percent" value="15" low="30" high="70" optimum="75"></meter>
+				</div>
+
+				<div class="row">
+					<label>Your website <input type="url"></label>
+				</div>
+
+				<input type="hidden" name="token" value="uiofdgfbeo09897sfed">
+
+				<div class="row">
 
 					<input type="submit" value="SubmitOrder">
-					<!-- <input type="button" value="Button">
-					<button>SubmitOrderButton</button> -->
-
+					<input type="reset">
 				</div>
 
 			</form>		
