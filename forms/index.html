@@ -31,7 +31,7 @@
 	
 		<article>
 		
-			<form action="" method="POST">
+			<form action="" method="POST" enctype="multipart/form-data">
 				
 				<div class="row">
 					<fieldset>
@@ -138,6 +138,20 @@
 						<label for="comment">Remarks for order:</label>
 					</div>
 						<textarea name="comment" id="comment" rows="4" cols="80" maxlength="250"></textarea>
+				</div>
+
+				<div class="row">
+					<label>Send a picture of your previous car </label><input type="file" name="file" accept="image/x-png, image/git, image/jpeg" multiple>
+				</div>
+
+				<div class="row">
+
+					<label>External color <input type="color" name="color"></label>
+
+				</div>
+
+				<div class="row">
+					<label>Status of your order: </label><progress max="100" value="25"></progress>
 				</div>
 
 				<div class="row">
